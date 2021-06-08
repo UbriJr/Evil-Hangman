@@ -32,6 +32,16 @@ Next, while in the main game state, the player has the option to restart or clos
 
 Lastly, some features were implemented to increase the performance of the game and overall experience. During testing, ocassionally the program would run slowly, this was determined to be caused by the constant loading and reloading of each panel as the player made their way through the game. To combat this, every panel seen in game is created at the very beginning, when the program is launched, and simply switches between states of visibility. This replaced the earlier implemented model in which the current panel would be created and the previous destroyed, which was inefficient for loading panels containing many buttons, images and action listeners. This new model would only keep the current panel visible while the dormant ones were invisible. This resulted in a seamless transition between panels and improved overall responsiveness. 
 
+### Getting Started 
+
+<p align="center">
+<img src= "https://github.com/UbriJr/Evil-Hangman/blob/master/images/run.png" />
+</p>
+
+Once you have pressed "Get from VCS" in IntelliJ and cloned the repository, head over to the driver class and press the green arrow near the top of the class, then select "run driver.run". When you initially clone the repository, IntelliJ won't know which class in the main class nor will it know the configuration, selecting the green arrow and running this class fixes this. 
+
+The main menu panel shown above is the first panel the player will see after running the program. To continue, the player must press the "Start" button that is in the lower center portion of the panel.
+
 ### Game Demo
 
 
