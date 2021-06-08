@@ -36,7 +36,7 @@ Lastly, some features were implemented to increase the performance of the game a
 
 
 <p align="center">
-<img src= "https://github.com/UbriJr/Evil-Hangman/blob/master/images/x1.png" />
+<img src= "https://github.com/UbriJr/Evil_Hangman/blob/master/images/x1.png" />
 </p>
 
 The main menu panel shown above is the first panel the player will see after running the program. To continue, the player must press the "Start" button that is in the lower center portion of the panel.
@@ -44,7 +44,7 @@ The main menu panel shown above is the first panel the player will see after run
 
 
 <p align="center">
-<img src= "https://github.com/UbriJr/Evil-Hangman/blob/master/images/x2.png" />
+<img src= "https://github.com/UbriJr/Evil_Hangman/blob/master/images/x2.png" />
 </p>
 
 The instruction panel illustrated above is what the player is greeted with after pressing "Start". This panel aims to educated the player on the rules of the game, where to enter their guesses, aswell as some addition features included in the game like the "Restart" and "Close Game" buttons located in the top left corner. Once the player understands the rules, objective and features within the game, they must press "Got It" in order to continue. 
@@ -52,7 +52,7 @@ The instruction panel illustrated above is what the player is greeted with after
 
 
 <p align="center">
-<img src= "https://github.com/UbriJr/Evil-Hangman/blob/master/images/x3.png" />
+<img src= "https://github.com/UbriJr/Evil_Hangman/blob/master/images/x3.png" />
 </p>
 
 Once the user presses the "Got It" button, they will be brought to the main game panel, where the actual game will take place. Once the player is in this panel, all of their entries and guesses will be recorded and fed into the algorithm. The player will enter their guesses in the square box found in the bottom right corner. If the user enters an entry that isn't valid, such as a number, symbol or special character, the program will return "Invalid Input" in the top right corner. The game will keep track of the lives remaining, which can be found on the top right corner, as well as a list of letters not yet guessed located at the bottom.
@@ -60,14 +60,14 @@ Once the user presses the "Got It" button, they will be brought to the main game
 
 
 <p align="center">
-<img src="https://github.com/UbriJr/Evil-Hangman/blob/master/images/x4.png" />
+<img src="https://github.com/UbriJr/Evil_Hangman/blob/master/images/x4.png" />
 </p>
 
 For each incorrect guess, a life is removed from the total number of lives. Whenever one of the player's lives is removed, a new segment of the stick figure is added to the gallow. Once the entire stick figure is complete the player loses the game. When the player is left with their final life, a message will appear warning the player that they are close to losing.
 
 
 <p align="center">
-<img src="https://github.com/UbriJr/Evil-Hangman/blob/master/images/x5.png" />
+<img src="https://github.com/UbriJr/Evil_Hangman/blob/master/images/x5.png" />
 </p>
 
 If the player guesses every letter in the "secret word" they will be brought to the win panel. The phrase "You Won!" will display and the "secret word" will be displayed in its entirety will the rescued stick figure will be displayed sitting in the bottom left corner. The player will be given the option to either return to the main menu, play another round or to exit the game.
@@ -75,7 +75,7 @@ If the player guesses every letter in the "secret word" they will be brought to 
 
 
 <p align="center">
-<img src="https://github.com/UbriJr/Evil-Hangman/blob/master/images/x6.png" />
+<img src="https://github.com/UbriJr/Evil_Hangman/blob/master/images/x6.png" />
 </p>
 
 If the player is unable to guess each letter in the "secret word" they will be brought to the lost panel. The phrase "You Lost!" will display and the "secret word" will be displayed in its entirety, a tombstone for the ill-fated stick figure rests in the bottom right corner. The player will be given the option to either return to the main menu, play another round or to exit the game.
