@@ -38,7 +38,7 @@ Lastly, some features were implemented to increase the performance of the game a
 <img src= "https://github.com/UbriJr/Evil-Hangman/blob/master/images/run.png" />
 </p>
 
-Once you have pressed "Get from VCS" in IntelliJ and cloned the repository, head over to the driver class and press the green arrow near the top of the class, then select "run driver.main()". When you initially clone the repository, IntelliJ won't know which class is the main class nor will it know the configuration, selecting the green arrow and running this class fixes this. 
+Once you have cloned the repository into IntelliJ, head over to the driver class and press the green arrow near the top of the class, then select "run driver.main()". When you initially clone the repository, IntelliJ won't know which class is the main class nor will it know the configuration, selecting the green arrow and running this class fixes this. 
 
 
 ### Game Demo
