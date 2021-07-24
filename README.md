@@ -32,6 +32,12 @@ Next, while in the main game state, the player has the option to restart or clos
 
 Lastly, some features were implemented to increase the performance of the game and overall experience. During testing, ocassionally the program would run slowly, this was determined to be caused by the constant loading and reloading of each panel as the player made their way through the game. To combat this, every panel seen in game is created at the very beginning, when the program is launched, and simply switches between states of visibility. This replaced the earlier implemented model in which the current panel would be created and the previous destroyed, which was inefficient for loading panels containing many buttons, images and action listeners. This new model would only keep the current panel visible while the dormant ones were invisible. This resulted in a seamless transition between panels and improved overall responsiveness. 
 
+
+### Cloning the Repository
+
+Clone this repository by selecting the green "Code" dropdown button. Then, copy the generated link and open IntelliJ. When you open IntelliJ, at the top there is a "Get from VCS" button, press it. Paste the URL GitHub generated into the "URL:" field, select a directory to store your cloned project and press "Clone" at the bottom. 
+
+
 ### Getting Started 
 
 <p align="center">
